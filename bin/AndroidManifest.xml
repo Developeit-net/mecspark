@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sasurie.mecspark"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Widget" >
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+          android:theme="@android:style/Theme" />
+
+        
+<activity android:name="com.startapp.android.publish.OverlayActivity"
+          android:theme="@android:style/Theme.Translucent"
+          android:configChanges="orientation|keyboardHidden|screenSize" />
+
+<activity android:name="com.startapp.android.publish.FullScreenActivity"
+          android:theme="@android:style/Theme"
+          android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.sasurie.mecspark.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".MechDashboard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.sasurie.mecspark.MECHDASHBOARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.sasurie.mecspark.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".SasurieInstitution"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+        <activity
+            android:name=".StudentsDatabaseEntry"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                <activity
+            android:name=".NinePassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+                        <activity
+            android:name=".TenPassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                        <activity
+            android:name=".ElevenPassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                        <activity
+            android:name=".TwelvePassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                 <activity
+            android:name=".ThirteenPassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>       
+        
+                                                 <activity
+            android:name=".FourteenPassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                                 <activity
+            android:name=".FifteenPassedOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+                        <activity
+            android:name=".SixteenPassingOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+                          <activity
+            android:name=".SeventeenPassingOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                          <activity
+            android:name=".EighteenPassingOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                          <activity
+            android:name=".NineteenPassingOut"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+        <activity
+            android:name=".MecsparkAlumni"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+          <activity
+            android:name=".MechsigmaFacebook"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+         
+                       <activity
+            android:name=".MechanicalNews"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                       
+                                     <activity
+            android:name=".ExamResults"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                    
+                                     <activity
+            android:name=".Server1"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                               <activity
+            android:name=".Server2"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                                                                <activity
+            android:name=".Server3"
+            android:label="@string/app_name" >
+           
+        </activity>
+            <activity
+            android:name=".Description"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+            
+           <activity
+            android:name=".StudyMaterials"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+               <activity
+            android:name=".AutomobileMagazine"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                <activity
+            android:name=".ISME"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                   <activity
+            android:name=".PlacementQuestions"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                       <activity
+            android:name=".Members"
+            android:label="@string/app_name" >
+           
+        </activity> 
+        
+                        <activity
+            android:name=".Features"
+            android:label="@string/app_name" >
+           
+        </activity> 
+        
+                <activity
+            android:name=".MechanicalSoftwares"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                  <activity
+            android:name=".AutoCADD"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                      <activity
+            android:name=".CREO"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                           <activity
+            android:name=".ANSYS"
+            android:label="@string/app_name" >
+           
+        </activity>
+        
+                         <activity
+            android:name=".CATIA"
+            android:label="@string/app_name" >
+           
+        </activity>    
+        
+                                  <activity
+            android:name=".SolidWorks"
+            android:label="@string/app_name" >
+           
+        </activity>      
+        
+                                         
+        
+    
+    </application>
+
+</manifest>
